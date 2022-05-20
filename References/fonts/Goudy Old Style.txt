@@ -1,0 +1,26 @@
+Regular:
+font-family: goudy-old-style, serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+
+Goudy Old Style Bold
+
+font-family: goudy-old-style, serif;
+
+font-weight: 700;
+
+font-style: normal;
+
+
+
+Goudy Old Style Regular Italic
+
+font-family: goudy-old-style, serif;
+
+font-weight: 400;
+
+font-style: italic;
