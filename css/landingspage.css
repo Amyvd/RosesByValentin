@@ -4,4 +4,109 @@
 *{
     margin:0;
     padding:0;
+    font-family: "goudy-old-style", serif;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+.navigationbar{
+    position:absolute;
+    background-color: #F2F2F2;
+    height:auto;
+    width:100%;
+}  
+  .wrapper{
+      width:100%;
+      height:75%;
+  }
+  .hamburger{
+    float:right;
+    /*padding-right: 45px;*/
+    justify-content: center;
+  }
+  .wrapper-content h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 5em;
+  }
+  .wrapperButton{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 255, 255);
+    font-size: 32px;
+    width:7em;
+    height:1.5em;
+    text-align: center;
+    padding:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border-radius: 1000px;
+    background-color:#daa520d5;
+  }
+  .wrapperButton:hover{
+      background-color: #F2F2F2;
+      color:black;
+      box-shadow:0 6px 6px hsl(0deg 0% 0% / 0.3);
+      transition: 500ms;
+  }
+  .featuredRoses h1{
+      text-align: center;
+      padding:30px;
+      font-size: 5em;
+  }
+.featuredSection{
+    display:grid;
+    justify-content: center;
+    grid-template:
+    auto auto auto
+    auto auto auto
+    auto auto auto
+    auto auto auto;
+    padding-left:50px;
+    
+}.roosbox1{
+    grid-row:1;
+    grid-column:1;
+}.roosbox2{
+    grid-row:1;
+    grid-column:2;
+}
+.roosbox3{
+    grid-row:1;
+    grid-column:3;
+}.testroos{
+    border-radius: 10%;
+    width:80%;
+    height:auto;
+}.roosboxText{
+    font-family: 'goudy-old-style', serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:50px;
+}.boxText1{
+    font-family: 'calibri',sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size:30px;
+}.buttonBox{
+    color:black;
+    font-size: 32px;
+    width:7em;
+    height:1.5em;
+    text-align: center;
+    padding:5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border-radius: 1000px;
+    background-color:#daa520d5;
+}.buttonBox:hover{
+    background-color: #F2F2F2;
+    color:black;
+    box-shadow:0 6px 6px hsl(0deg 0% 0% / 0.3);
+    transition: 500ms;
 }
