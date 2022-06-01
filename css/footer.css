@@ -1,0 +1,60 @@
+*{
+   margin:0;
+   padding:0; 
+}footer{
+    padding:50px;
+    background-color:#F2F2F2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*footer grid*/
+.footerGrid{
+    display:grid;
+    grid-template: auto auto auto;
+}
+
+/*grid instellingen*/
+.footerGridOne{
+    grid-row:1;
+    grid-column: 1;
+}
+.footerGridTwo{
+    grid-row:1;
+    grid-column: 2;
+}.footerGridThree{
+    grid-row:1;
+    grid-column: 3;  
+}
+
+/*grid section 2*/
+.footerGridTwo h3{
+    font-size:3.5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}.footerGridTwo a{
+    padding-bottom:15px;
+    font-size:30px;
+    text-align:center;
+    text-decoration: none;
+    color:black;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*social icons*/
+.socialIcons{
+    justify-content: space-between;
+}
+.facebookIcn, .instagramIcn{
+    width:3em;
+    height:auto;
+    padding:15px;
+}
+.emailIcn, .phoneIcn{
+    width:3em;
+    height:auto;
+    padding:15px;   
+}
+.footerGridOne p{
+    text-align:center;
+}
+.footersubmitButton{
+    background-color:#daa520d5;
+}
