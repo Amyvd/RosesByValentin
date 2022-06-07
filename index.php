@@ -9,6 +9,7 @@
     <!-- Style Sheets -->
     <link rel="stylesheet" href="css/landingspage.css">
     <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/navigation.css">
     
     <link rel="stylesheet" href="css/menuoverlay.css">
   <script src="javascript files/mobilenav.js"></script>
@@ -30,16 +31,16 @@
                 <!-- Overlay Content -->
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
                 <div class="overlay-content">
-                    <a href="#">Home</a>
-                    <a href="#">About us</a>
+                    <a href="index.php">Home</a>
+                    <a href="aboutme.php">About us</a>
                     <a href="#">Webshop</a>
-                    <a href="#">Contact</a>
+                    <a href="contact.php">Contact</a>
                 </div>
             </div>
         </div>
         <!-- Header / Wrapper -->
         <div class="wrapper">
-            <img src="afbeeldingen/roos.jpg" alt="">
+            <img src="afbeeldingen/borderroses2.jpg" alt="">
             <!--Wrapper Tekst -->
             <div class="wrapper-content">
                 <h1 class="wrappercontentText">Roses By Valentin</h1>
@@ -53,19 +54,19 @@
         <h1>Featured Roses</h1>
         <div class="featuredSection">
             <div class="roosbox1">
-                <img src="afbeeldingen/roos1.png" alt="" class="testroos">
+                <img src="afbeeldingen/roosbox1.jpg" alt="" class="testroos">
                 <h3 class="roosboxText">Rose Box 1</h3>
                 <p class="boxText1">$160,00</p>
                 <a href="#featuredRoses" class="buttonBox box1">Buy Now</a>
             </div>
             <div class="roosbox2">
-                <img src="afbeeldingen/roos1.png" alt="" class="testroos">
+                <img src="afbeeldingen/roosbox2.jpg" alt="" class="testroos">
                 <h3 class="roosboxText">Rose Box 2</h3>
                 <p class="boxText1">$160,00</p>
                 <a href="#featuredRoses" class="buttonBox box2">Buy Now</a>
             </div>
             <div class="roosbox3">
-                <img src="afbeeldingen/roos1.png" alt="" class="testroos">
+                <img src="afbeeldingen/roosbox3.jpg" alt="" class="testroos">
                 <h3 class="roosboxText">Rose Box 3</h3>
                 <p class="boxText1">$160,00</p>
                 <a href="#featuredRoses" class="buttonBox box3">Buy Now</a>
@@ -73,8 +74,31 @@
         </div>
     </div>
 
-    <div class="whitespace"></div>
+    <!-- slider -->
+   
 
+    <div class="whitespace"></div>
+    <!-- About me -->
+    <div class="aboutme">
+        <h2>Roses By Valentin</h2>
+        <div class="aboutmeInhoud">
+            <div class="aboutmeText">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero leo, pellentesque ornare, adipiscing vitae, rhoncus commodo, nulla. Fusce quis ipsum. Nulla neque massa, feugiat sed, commodo in, adipiscing ut, est. In fermentum mattis ligula. Nulla ipsum. Vestibulum condimentum condimentum augue. Nunc purus risus, volutpat sagittis, lobortis at, dignissim sed, sapien. Fusce porttitor iaculis ante. Curabitur eu arcu. Morbi quam purus, tempor eget, ullamcorper feugiat, commodo ullamcorper, neque.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero leo, pellentesque ornare, adipiscing vitae, rhoncus commodo, nulla. Fusce quis ipsum. Nulla neque massa, feugiat sed, commodo in, adipiscing ut, est. In fermentum mattis ligula. Nulla ipsum. Vestibulum condimentum condimentum augue. Nunc purus risus, volutpat sagittis, lobortis at, dignissim sed, sapien. Fusce porttitor iaculis ante. Curabitur eu arcu. Morbi quam purus, tempor eget, ullamcorper feugiat, commodo ullamcorper, neque.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus libero leo, pellentesque ornare, adipiscing vitae, rhoncus commodo, nulla. Fusce quis ipsum. Nulla neque massa, feugiat sed, commodo in, adipiscing ut, est. In fermentum mattis ligula. Nulla ipsum. Vestibulum condimentum condimentum augue. Nunc purus risus, volutpat sagittis, lobortis at, dignissim sed, sapien. Fusce porttitor iaculis ante. Curabitur eu arcu. Morbi quam purus, tempor eget, ullamcorper feugiat, commodo ullamcorper, neque.
+                </p>
+                <br>
+                <a href="aboutme.php" class="aboutmeButton">About me</a>
+            </div>
+            <div class="aboutmeImage">
+                <img src="afbeeldingen/aboutmeFoto.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+ <div class="whitespace"></div>
+
+    <!-- Nieuwsbrief section -->
     <div class="nieuwsbriefsection">
         <h2>Nieuwsbrief</h2>
         <p>Wil je lid worden van nieuwsbrief. Meld je dan aan met je Email Adress</p>
@@ -98,7 +122,7 @@
                 <a href="index.php">Home</a><br>
                 <a href="aboutme.php">About me</a><br>
                 <a href="#">Webshop</a><br>
-                <a href="#">Contact</a><br>
+                <a href="contact.php">Contact</a><br>
             </div>
             <div class="footerGridThree">
                 <div class="nieuwsbriefsectionFooter">

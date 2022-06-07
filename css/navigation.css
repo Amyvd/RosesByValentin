@@ -1,0 +1,9 @@
+.navigationbar{
+    position:absolute;
+    background-color: #F2F2F2;
+    height:auto;
+    width:100%;
+}    
+.hamburger{
+    float:right;
+  }

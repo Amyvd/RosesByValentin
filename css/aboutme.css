@@ -1,0 +1,129 @@
+/* Import links */
+@import url("https://use.typekit.net/ifi0aam.css");
+@import url("https://use.typekit.net/ifi0aam.css");
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Roboto+Mono:wght@200&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    font-family: "goudy-old-style", serif;
+    font-weight: 400;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+.navigationbar{
+    position:absolute;
+    background-color: #F2F2F2;
+    height:auto;
+    width:100%;
+}  
+  .wrapper img{
+      width:100%;
+      height:60%;
+  }
+  .hamburger{
+    float:right;
+  }
+
+  .wrapper-content h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:white;
+    font-size: 5em;
+  }
+  .wrapperButton{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(255, 255, 255);
+    font-size: 32px;
+    width:7em;
+    height:1.5em;
+    text-align: center;
+    padding:10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    border-radius: 1000px;
+    background-color:#daa520d5;
+  }
+  .wrapperButton:hover{
+      background-color: #F2F2F2;
+      color:black;
+      box-shadow:0 6px 6px hsl(0deg 0% 0% / 0.3);
+      transition: 500ms;
+  }
+  .featuredRoses h1{
+      text-align: center;
+      padding:30px;
+      font-size: 5em;
+  }
+
+/* about me section */
+.aboutme h1{
+    text-align:center;
+    font-size: 70px;
+}
+.aboutmeInhoud{
+    display:grid;
+    grid-template:auto auto;
+    padding:10%;
+}.aboutmeFoto{
+    grid-row:1;
+    grid-column:1;
+    width:70%;
+    height:auto;
+    border-radius: 15%;
+}.aboutmeText{
+    grid-row:1;
+    grid-column:2;
+}
+
+/*special flowers section*/
+.specialFlowers{
+    width:100%;
+    background-color:#5D8D68;
+}
+/* Grid special flowers section */
+.specialFlowersGrid{
+    display: grid;
+    grid-template: auto auto auto;
+    grid-gap:10px;
+    padding-left:50px;
+}
+/* images*/
+.specialflowersImg1{
+    grid-row:1;
+    grid-column:1;
+}
+.specialflowersImg2{
+    grid-row:1;
+    grid-column:2;
+}
+.specialflowersImg3{
+    grid-row:1;
+    grid-column:3;
+}
+.specialFlowersGrid img{
+    width:500px;
+    height:500px;
+    border-radius: 15%;;
+}
+
+/* text setting*/
+.specialFlowers h2{
+    font-size:70px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding:1.5%;
+}
+.specialFlowers p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top:20px;
+    font-size: 15px;
+    text-align: center;
+    padding:1.5%;
+}
