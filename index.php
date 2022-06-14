@@ -75,7 +75,25 @@
     </div>
 
     <!-- slider -->
-   
+   <div class="specialpoints">
+        <div class="specialpointsHeadings">
+            <h1>Speciale Rozen</h1>
+        </div>
+        <div class="specialpointsImage">
+            <img src="" alt="">
+        </div>
+        <div class="specialpointsTekst">
+            <p>Met de rozen van Roses by Valentin heb jij voor elke speciale gelegenheid een mooi cadeau. Verras jij jouw vrouw, je vriendin of je date met een luxe flowerbox of geef jij ze liever aan je moeder? Met deze rozentaart tover jij gegarandeerd een glimlach op hun gezicht!
+
+Onze rozentaarten worden met liefde en zorg voor jou samengesteld. Wij gebruiken alleen de beste kwaliteit rozen, zodat jij of jouw geliefde hier jaren van kan blijven genieten! De luxe hoedendoos wordt gevuld met longlife rozen. Deze rozen gaan tot wel 3 jaar mee!
+
+Bekijk het assortiment voor alle rozentaarten. Wil je liever een andere kleur of samenstelling? Neem dan contact met ons op en wij gaan ons best voor je doen!
+
+Een rozentaart is niet alleen hét perfecte cadeau voor Valentijnsdag, Moederdag of de verjaardag van jouw geliefde vrouw, vriendin, moeder, tante en oma. Het is ook zeer geschikt als decoratie of geschenk voor een verlovingsfeest, huwelijk of babyshower. 
+Maak elke gelegenheid bijzonder met een premium giftbox van Roses by Valentin.  
+</p>
+        </div>
+   </div>
 
     <div class="whitespace"></div>
     <!-- About me -->

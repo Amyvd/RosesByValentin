@@ -119,6 +119,7 @@
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     padding:1.5%;
+    color:white;
 }
 .specialFlowers p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -126,4 +127,6 @@
     font-size: 15px;
     text-align: center;
     padding:1.5%;
+    color:white;
+    
 }

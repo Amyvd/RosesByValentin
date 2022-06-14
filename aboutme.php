@@ -40,7 +40,7 @@
         </div>
         <!-- Header / Wrapper -->
         <div class="wrapper">
-            <img src="afbeeldingen/roos.jpg" alt="">
+            <img src="afbeeldingen/borderroses2.jpg" alt="">
             <!--Wrapper Tekst -->
             <div class="wrapper-content">
                 <h1 class="wrappercontentText">About Me</h1>
